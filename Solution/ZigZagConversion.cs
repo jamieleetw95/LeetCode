@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp4
+namespace LeetCodeCheckConsole
 {
     public partial class Solution
     {
@@ -72,11 +72,11 @@ namespace ConsoleApp4
             string s = "PAYPALISHIRING";
             int numRows = 3;
 
-            GetAnswerAndCheck(s, Convert(s, numRows), "PAHNAPLSIIGYIR");
+            CheckResult(s, Convert(s, numRows), "PAHNAPLSIIGYIR");
 
             s = "PAYPALISHIRING";
             numRows = 4;
-            GetAnswerAndCheck(s, Convert(s, numRows), "PINALSIGYAHRPI");
+            CheckResult(s, Convert(s, numRows), "PINALSIGYAHRPI");
         }
     }
 }

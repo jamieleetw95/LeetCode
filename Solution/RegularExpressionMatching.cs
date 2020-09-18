@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp4
+namespace LeetCodeCheckConsole
 {
     public partial class Solution
     {
@@ -56,23 +56,23 @@ namespace ConsoleApp4
         {
             string s = "aa";
             string p = "a";
-            GetAnswerAndCheck(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "False");
+            CheckResult(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "False");
 
             s = "aa";
             p = "a*";
-            GetAnswerAndCheck(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "True");
+            CheckResult(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "True");
 
             s = "ab";
             p = ".*";
-            GetAnswerAndCheck(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "True");
+            CheckResult(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "True");
 
             s = "aab";
             p = "c*a*b";
-            GetAnswerAndCheck(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "True");
+            CheckResult(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "True");
 
             s = "mississippi";
             p = "mis*is*p*.";
-            GetAnswerAndCheck(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "False");
+            CheckResult(string.Format("[ s：{0}，p：{1} ]", s, p), IsMatch(s, p).ToString(), "False");
         }
     }
 }

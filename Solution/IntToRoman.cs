@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp4
+namespace LeetCodeCheckConsole
 {
     public partial class Solution
     {
@@ -96,13 +96,13 @@ namespace ConsoleApp4
 
         public void IntToRomanTest()
         {
-            GetAnswerAndCheck("3", IntToRoman(3), "III");
-            GetAnswerAndCheck("4", IntToRoman(4), "IV");
-            GetAnswerAndCheck("9", IntToRoman(9), "IX");
-            GetAnswerAndCheck("58", IntToRoman(58), "LVIII");
-            GetAnswerAndCheck("1994", IntToRoman(1994), "MCMXCIV");
-            GetAnswerAndCheck("20", IntToRoman(20), "XX");
-            GetAnswerAndCheck("41", IntToRoman(41), "XLI");
+            CheckResult("3", IntToRoman(3), "III");
+            CheckResult("4", IntToRoman(4), "IV");
+            CheckResult("9", IntToRoman(9), "IX");
+            CheckResult("58", IntToRoman(58), "LVIII");
+            CheckResult("1994", IntToRoman(1994), "MCMXCIV");
+            CheckResult("20", IntToRoman(20), "XX");
+            CheckResult("41", IntToRoman(41), "XLI");
         }
 
     }

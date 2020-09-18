@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp4
+namespace LeetCodeCheckConsole
 {
     partial class Solution
     {
@@ -70,7 +70,7 @@ namespace ConsoleApp4
             return result;
         }
 
-        public void TestLengthOfLongestSubstring()
+        public void LengthOfLongestSubstringTest()
         {
             var v1 = LengthOfLongestSubstring("abcabcbb");
             Console.WriteLine(v1);
