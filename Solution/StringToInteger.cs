@@ -49,17 +49,17 @@ namespace LeeCode
             return result;
         }
 
-        internal void MyAtoiTest(string v1, int v2)
+        internal void MyAtoiTest(string input, int answer)
         {
-            int result = MyAtoi(v1);
-            Console.WriteLine(string.Format("MyAtoi test {0}，input：{1}，answer：{2}，myoutput：{3}"
-                , result == v2
-                , v1
-                , v2
+            int result = MyAtoi(input);
+            Console.WriteLine(string.Format("[8. String to Integer] test {0}，input：{1}，answer：{2}，myoutput：{3}"
+                , result == answer
+                , input
+                , answer
                 , result));
         }
 
-        public void MyAtoiTest()
+        public void StringToIntegerTest()
         {
             MyAtoiTest("   -42", -42);
             MyAtoiTest("4193 with words", 4193);

@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4.Solution
 {
-    /// <summary>
-    /// https://leetcode.com/problems/3sum/
-    /// </summary>
     public class Solution
     {
         /// <summary>
         /// 
+        /// <para>https://leetcode.com/problems/3sum/</para>
         /// </summary>
         /// <param name="nums"></param>
         /// <returns></returns>
