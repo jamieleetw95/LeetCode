@@ -9,6 +9,12 @@ namespace LeeCode
 {
     partial class Solution
     {
+        /// <summary>
+        /// 8. String to Integer (atoi)
+        /// <para>https://leetcode.com/problems/string-to-integer-atoi/</para>
+        /// </summary>
+        /// <param name="str"></param>
+        /// <returns></returns>
         public int MyAtoi(string str)
         {
             int result = 0;

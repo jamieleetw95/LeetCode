@@ -8,6 +8,12 @@ namespace LeeCode
 {
     partial class Solution
     {
+        /// <summary>
+        /// 11. Container With Most Water
+        /// <para>https://leetcode.com/problems/container-with-most-water/</para>
+        /// </summary>
+        /// <param name="inputs"></param>
+        /// <returns></returns>
         public int ContainerWithMostWater(int[] inputs)
         {
             int result = 0;

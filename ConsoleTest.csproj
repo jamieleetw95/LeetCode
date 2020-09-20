@@ -51,7 +51,7 @@
     <Compile Include="Solution\IntToRoman.cs" />
     <Compile Include="Solution\LengthOfLongestSubstring.cs" />
     <Compile Include="Solution\LongestPalindrome.cs" />
-    <Compile Include="Solution\MyAtoi.cs" />
+    <Compile Include="Solution\StringToInteger.cs" />
     <Compile Include="Solution\RegularExpressionMatching.cs" />
     <Compile Include="Solution\Solution.cs" />
     <Compile Include="Solution\ZigZagConversion.cs" />
