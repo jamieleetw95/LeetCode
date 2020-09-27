@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ConsoleApp4.Solution
+namespace LeetCodeCheckConsole.Solution
 {
     public partial class Solution
     {

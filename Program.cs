@@ -11,7 +11,7 @@ namespace LeetCodeCheckConsole
     {
         static void Main(string[] args)
         {
-            Solution solution = new Solution();
+            Solution.Solution solution = new Solution.Solution();
             //solution.RegularExpressionMatchingTest();
             //solution.IntToRomanTest();
             //solution.ZigZagConversionTest();
