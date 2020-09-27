@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeetCodeCheckConsole
 {
-    partial class Solution
+    public partial class Solution
     {
         /// <summary>
         /// 3. Longest Substring Without Repeating Characters       

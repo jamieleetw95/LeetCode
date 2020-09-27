@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LeeCode
 {
-    partial class Solution
+    public partial class Solution
     {
         /// <summary>
         /// 11. Container With Most Water

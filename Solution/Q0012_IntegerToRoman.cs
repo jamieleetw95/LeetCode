@@ -8,7 +8,13 @@ namespace LeetCodeCheckConsole
 {
     public partial class Solution
     {
-        public string IntToRoman(int num)
+        /// <summary>
+        /// 12. Integer to Roman
+        /// <para>https://leetcode.com/problems/integer-to-roman/</para>
+        /// </summary>
+        /// <param name="num"></param>
+        /// <returns></returns>
+        public string IntegerToRoman(int num)
         {
             Dictionary<int, string> nums = new Dictionary<int, string>()
             {
@@ -96,13 +102,13 @@ namespace LeetCodeCheckConsole
 
         public void IntToRomanTest()
         {
-            CheckResult("3", IntToRoman(3), "III");
-            CheckResult("4", IntToRoman(4), "IV");
-            CheckResult("9", IntToRoman(9), "IX");
-            CheckResult("58", IntToRoman(58), "LVIII");
-            CheckResult("1994", IntToRoman(1994), "MCMXCIV");
-            CheckResult("20", IntToRoman(20), "XX");
-            CheckResult("41", IntToRoman(41), "XLI");
+            CheckResult("3", IntegerToRoman(3), "III");
+            CheckResult("4", IntegerToRoman(4), "IV");
+            CheckResult("9", IntegerToRoman(9), "IX");
+            CheckResult("58", IntegerToRoman(58), "LVIII");
+            CheckResult("1994", IntegerToRoman(1994), "MCMXCIV");
+            CheckResult("20", IntegerToRoman(20), "XX");
+            CheckResult("41", IntegerToRoman(41), "XLI");
         }
 
     }

@@ -8,8 +8,16 @@ namespace LeetCodeCheckConsole
 {
     public partial class Solution
     {
+        /// <summary>
+        /// 10. Regular Expression Matching
+        /// <para>https://leetcode.com/problems/regular-expression-matching/</para>
+        /// </summary>
+        /// <param name="s"></param>
+        /// <param name="p"></param>
+        /// <returns></returns>
         public bool IsMatch(string s, string p)
         {
+            //TODO：
             bool isMatch = true;
             char compareChar = p[0];
             int pIdx = 0;

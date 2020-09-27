@@ -12,10 +12,11 @@ namespace LeetCodeCheckConsole
         static void Main(string[] args)
         {
             Solution solution = new Solution();
-            solution.RegularExpressionMatchingTest();
+            //solution.RegularExpressionMatchingTest();
             //solution.IntToRomanTest();
             //solution.ZigZagConversionTest();
             //solution.TestLongestPalindrome();
+
             Console.ReadLine(); //Pause
         }
     }

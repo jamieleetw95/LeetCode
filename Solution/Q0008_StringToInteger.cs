@@ -5,9 +5,9 @@ using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 
-namespace LeeCode
+namespace LeetCodeCheckConsole
 {
-    partial class Solution
+    public partial class Solution
     {
         /// <summary>
         /// 8. String to Integer (atoi)

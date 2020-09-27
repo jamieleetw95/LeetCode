@@ -6,16 +6,17 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp4.Solution
 {
-    public class Solution
+    public partial class Solution
     {
         /// <summary>
-        /// 
+        /// 15. 3Sum
         /// <para>https://leetcode.com/problems/3sum/</para>
         /// </summary>
         /// <param name="nums"></param>
         /// <returns></returns>
         public IList<IList<int>> ThreeSum(int[] nums)
         {
+            //TODO：
             return null;
         }
 
