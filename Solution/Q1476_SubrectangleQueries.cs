@@ -35,7 +35,7 @@ namespace LeetCodeCheckConsole.Solution
             List<string> input = new List<string> { "SubrectangleQueries", "getValue", "updateSubrectangle", "getValue", "getValue", "updateSubrectangle", "getValue" };
 
 
-
+            //TODO:
         }
     }
     public class SubrectangleQueries
@@ -49,6 +49,7 @@ namespace LeetCodeCheckConsole.Solution
 
         public void UpdateSubrectangle(int row1, int col1, int row2, int col2, int newValue)
         {
+            //TODO:
             int rowMax = row2 < fRectangle.Count() ? row2 : fRectangle.Count();
             
             for(int r = row1; r < rowMax; r++)
