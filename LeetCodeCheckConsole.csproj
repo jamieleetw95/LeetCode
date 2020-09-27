@@ -53,6 +53,7 @@
     <Compile Include="Solution\Q0005_LongestPalindrome.cs" />
     <Compile Include="Solution\Q0008_StringToInteger.cs" />
     <Compile Include="Solution\Q0010_RegularExpressionMatching.cs" />
+    <Compile Include="Solution\Q1476_SubrectangleQueries.cs" />
     <Compile Include="Solution\Solution.cs" />
     <Compile Include="Solution\Q0006_ZigZagConversion.cs" />
   </ItemGroup>
